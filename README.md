@@ -1,7 +1,8 @@
 # CANADA-S-INTERNATIONAL-TRADE-ANALYSIS
 
 Overview
-This project analyzes Canada’s international trade performance from 2019 to November 2024 using data from Statistics Canada (Table 12-10-0175-01). It involved building a seamless data pipeline utilizing Python, AWS, SQL, and Power BI to transform raw trade data into actionable insights. The analysis focuses on three types of trade: Import, Domestic Export, and Re-Export, with the latter two combined into a single variable, Export, for comprehensive reporting. Additionally, Re-Export data is only available at the national level and is not broken down for provinces.
+This project analyzes Canada’s international trade performance from 2019 to November 2024 using data from Statistics Canada (Table 12-10-0175-01). It involved building a seamless data pipeline utilizing Python, AWS, SQL, and Power BI to transform raw trade data into actionable insights. The analysis focuses on three types of trade: Import, Domestic Export, and Re-Export, with the latter two combined into a single variable, Export, for comprehensive reporting. Additionally, Re-Export data is only available at the national level and is not broken down for provinces.
+
 Workflow
 1. Data Extraction with Python
 Connected to Statistics Canada’s API to extract international trade data in CSV format.
